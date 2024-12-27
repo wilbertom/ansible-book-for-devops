@@ -1,7 +1,6 @@
 #!/opt/homebrew/opt/node/bin/node
-
-const cdk = require('aws-cdk-lib');
-const { CdkStack } = require('../lib/cdk-stack');
+import * as cdk from 'aws-cdk-lib';
+import { CdkStack } from '../lib/cdk-stack';
 
 const app = new cdk.App();
 new CdkStack(app, 'CdkStack', {
