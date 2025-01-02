@@ -1,0 +1,53 @@
+{
+  "vpc-provider:account=213774913154:filter.isDefault=true:region=us-east-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-66fbfb03",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "213774913154",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-9ef465fb",
+            "cidr": "172.31.64.0/20",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-ce6a88aa"
+          },
+          {
+            "subnetId": "subnet-835dc3a8",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-ce6a88aa"
+          },
+          {
+            "subnetId": "subnet-cfaffcb8",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-east-1c",
+            "routeTableId": "rtb-ce6a88aa"
+          },
+          {
+            "subnetId": "subnet-60453139",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-east-1d",
+            "routeTableId": "rtb-ce6a88aa"
+          },
+          {
+            "subnetId": "subnet-38e6e502",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-east-1e",
+            "routeTableId": "rtb-ce6a88aa"
+          },
+          {
+            "subnetId": "subnet-cbf24bc7",
+            "cidr": "172.31.80.0/20",
+            "availabilityZone": "us-east-1f",
+            "routeTableId": "rtb-ce6a88aa"
+          }
+        ]
+      }
+    ]
+  },
+  "ami:account=213774913154:filters.image-type.0=machine:filters.name.0=Rocky-8-EC2-Base-8.9-20231119.0.x86_64-d6577ceb-8ea8-4e0e-84c6-f098fc302e82:filters.state.0=available:region=us-east-1": "ami-011ef2017d41cb239"
+}
